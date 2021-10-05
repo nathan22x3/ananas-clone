@@ -13,7 +13,21 @@ module.exports = {
       transparent: 'transparent',
       white: '#ffffff',
       orange: '#f15e2c',
+      gray: {
+        100: '#f1f1f1',
+        200: '#cccccc',
+        300: '#808080',
+        400: '#666666',
+        500: '#4c4c4c',
+        600: '#333333',
+      },
       black: '#000000',
+    },
+    extend: {
+      spacing: {
+        7.5: '1.875rem',
+        15: '3.75rem',
+      },
     },
   },
 
