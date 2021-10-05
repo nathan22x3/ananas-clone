@@ -1,0 +1,11 @@
+@use 'font-faces' as *;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .heading {
+    @apply text-orange font-nunito-sans;
+  }
+}
