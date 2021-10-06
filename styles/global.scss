@@ -16,7 +16,11 @@
     @apply font-geometric;
   }
 
+  h3 {
+    @apply text-4xl lg:text-3xl;
+  }
+
   h4 {
-    @apply text-2xl;
+    @apply text-3xl lg:text-2xl;
   }
 }
