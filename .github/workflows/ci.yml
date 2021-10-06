@@ -22,7 +22,7 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - name: Install dependencies
-        run: yarn ci
+        run: yarn install
 
       - name: Run code style check
         run: yarn style
