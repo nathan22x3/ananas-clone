@@ -5,7 +5,18 @@
 @tailwind utilities;
 
 @layer base {
-  .heading {
-    @apply text-orange font-nunito-sans;
+  body {
+    @apply font-nunito-sans;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-geometric;
+  }
+
+  h4 {
+    @apply text-2xl;
   }
 }
