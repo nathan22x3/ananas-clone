@@ -2,7 +2,7 @@ import Button from 'components/common/button.component';
 import Link from 'next/link';
 import footerContent from 'public/content/footer.content';
 import AnanasStore from 'public/svg/ananas-store.svg';
-import AnanaTextLogo from 'public/svg/ananas-text-logo.svg';
+import AnanasTextLogo from 'public/svg/ananas-text-logo.svg';
 import FacebookIcon from 'public/svg/facebook-icon.svg';
 import InstagramIcon from 'public/svg/instagram-icon.svg';
 import YoutubeIcon from 'public/svg/youtube-icon.svg';
@@ -10,7 +10,7 @@ import tw from 'twin.macro';
 
 export interface FooterProps {}
 
-const Footer: React.FunctionComponent<FooterProps> = (props) => {
+const Footer: React.FunctionComponent<FooterProps> = () => {
   return (
     <footer css={tw`grid grid-cols-4 py-15 bg-gray-500 text-white`}>
       <section css={tw`place-self-center flex flex-col gap-y-5`}>
@@ -71,7 +71,7 @@ const Footer: React.FunctionComponent<FooterProps> = (props) => {
             </form>
           </div>
           <div css={tw`col-span-2 flex justify-start items-center`}>
-            <AnanaTextLogo />
+            <AnanasTextLogo />
           </div>
         </div>
         <div css={tw`grid grid-cols-4`}>

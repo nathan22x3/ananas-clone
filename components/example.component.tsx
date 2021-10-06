@@ -1,5 +1,3 @@
-import tw from 'twin.macro';
-
 export interface ExampleProps {
   title: string;
 }

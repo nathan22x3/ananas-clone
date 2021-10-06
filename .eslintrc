@@ -1,0 +1,16 @@
+{
+  "extends": ["next", "next/core-web-vitals", "plugin:prettier/recommended"],
+  "rules": {
+    "arrow-spacing": "error",
+    "eqeqeq": "error",
+    "no-console": "warn",
+    "no-extra-boolean-cast": "error",
+    "no-extra-semi": "error",
+    "no-magic-numbers": "warn",
+    "no-return-await": "error",
+    "no-self-assign": "error",
+    "no-unused-vars": "error",
+    "no-var": "error",
+    "prettier/prettier": "error"
+  }
+}

@@ -1,11 +1,12 @@
-import tw from 'twin.macro';
-import Image from 'components/common/image.component';
-import newsContent from 'public/content/news.content';
-import Link from 'next/link';
 import Button from 'components/common/button.component';
+import Image from 'components/common/image.component';
+import Link from 'next/link';
+import newsContent from 'public/content/news.content';
+import tw from 'twin.macro';
+
 export interface NewsProps {}
 
-const News: React.FunctionComponent<NewsProps> = (props) => {
+const News: React.FunctionComponent<NewsProps> = () => {
   return (
     <div css={tw`flex flex-col items-center pt-10 pb-20 px-4 lg:px-0`}>
       <div css={tw` max-w-7xl m-auto grid grid-cols-1 py-16 bg-white text-black lg:grid-cols-2`}>
