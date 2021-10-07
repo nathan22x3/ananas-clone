@@ -1,7 +1,8 @@
-import tw from 'twin.macro';
-import bestSellerContent from 'public/content/best-seller.content';
 import Image from 'components/common/image.component';
 import Link from 'next/link';
+import bestSellerContent from 'public/content/best-seller.content';
+import tw from 'twin.macro';
+
 export interface BestSellerProps {}
 
 const BestSeller: React.FunctionComponent<BestSellerProps> = () => {
