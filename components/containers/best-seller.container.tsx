@@ -7,7 +7,7 @@ export interface BestSellerProps {}
 
 const BestSeller: React.FunctionComponent<BestSellerProps> = () => {
   return (
-    <div css={tw`py-4 max-w-screen-xl mx-auto`}>
+    <div css={tw`py-10 max-w-screen-xl mx-auto`}>
       <div css={tw`-mx-10`}>
         <h3 css={tw`text-center uppercase mb-10`}>best seller</h3>
         <div css={tw`grid grid-cols-4 gap-x-5`}>

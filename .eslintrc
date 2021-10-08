@@ -11,7 +11,11 @@
     "no-self-assign": "error",
     "no-unused-vars": "error",
     "no-var": "error",
-    "prettier/prettier": "error",
-    "linebreak-style": ["error", "unix"]
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
   }
 }
