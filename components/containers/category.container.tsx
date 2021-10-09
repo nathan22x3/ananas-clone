@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'components/common/image.component';
 
 export interface CategoryProps {}
+
 const Category: React.FunctionComponent<CategoryProps> = () => {
   return (
     <div css={tw`py-10 max-w-screen-xl mx-auto`}>
