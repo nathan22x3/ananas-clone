@@ -3,6 +3,7 @@ import { NextPage } from 'next';
 import Head from 'next/head';
 import BestSeller from 'components/containers/best-seller.container';
 import Category from 'components/containers/category.container';
+
 const App: NextPage = () => (
   <main>
     <Head>
